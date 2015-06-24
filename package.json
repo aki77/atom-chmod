@@ -1,0 +1,25 @@
+{
+  "name": "chmod",
+  "main": "./lib/main",
+  "version": "0.0.0",
+  "description": "Set file permissions",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-text-editor": ["chmod:current-file"],
+    ".tree-view": ["chmod:selected-entry"]
+  },
+  "repository": "https://github.com/aki77/atom-chmod",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=0.174.0 <2.0.0"
+  },
+  "dependencies": {
+    "@aki77/atom-input-dialog": "^0.1.2",
+    "bluebird": "^2.9.30",
+    "fs-plus": "~2.8.1"
+  },
+  "devDependencies": {
+    "temp": "~0.8.1"
+  }
+}

@@ -1,0 +1,7 @@
+'context-menu':
+  '.tree-view': [
+    {
+      'label': 'Change Mode'
+      'command': 'chmod:selected-entry'
+    }
+  ]
