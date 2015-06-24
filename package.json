@@ -1,13 +1,16 @@
 {
   "name": "chmod",
   "main": "./lib/main",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Set file permissions",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
-    "atom-text-editor": ["chmod:current-file"],
-    ".tree-view": ["chmod:selected-entry"]
+    "atom-text-editor": [
+      "chmod:current-file"
+    ],
+    ".tree-view": [
+      "chmod:selected-entry"
+    ]
   },
   "repository": "https://github.com/aki77/atom-chmod",
   "license": "MIT",
